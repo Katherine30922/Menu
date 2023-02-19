@@ -1,0 +1,87 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url("https://img.freepik.com/free-photo/abstract-white-color-canvas-wallpaper-textures-surface_74190-6385.jpg?w=2000");
+    font-family: 'Amatic SC', cursive;
+}
+section{
+    z-index:0;
+    /* 圖層設定，數字越小越下面 */
+}
+.title{
+    text-align: center;
+    color: #4A4238;
+    font-size: 50px;
+}
+.underline{
+    width: 6rem;
+    height: 0.2rem;
+    background-color: #4A4238;
+    margin-top: 0;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    top:-2.5rem;
+}
+.btncontainer{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+button{
+    margin-right: 2rem;
+    background-color: #9cc69b7b;
+    color: #4A4238;
+    border:dashed 2px #4A4238;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 5px;
+    font-family: inherit;
+    cursor: pointer;
+}
+button:hover{
+animation: color 0.3s forwards ease;
+}
+@keyframes color{
+    from{
+        background-color: #9cc69b7b;
+        color: #4A4238;
+    }
+    to{
+        background-color: #4A4238;
+        color:#9cc69b ;
+    }
+}
+.center{
+    width:70rem;
+    margin-left: auto;
+    margin-right: auto;
+    /* create column!!!!!!! */
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.menuItem{
+    padding: 3rem 2.3em;
+}
+img{
+    width: 15rem;
+    border: #4A4238 solid 3px;
+    border-radius: 4rem;
+    margin-bottom: 2rem;
+}
+.iteminfo{
+    width: 20rem;
+    text-align: justify;
+    font-size: 25px;
+}
+h2{
+    font-size:30px;
+    display: inline;
+    background-color: #fac15e71;
+    width: fit-content;
+    border-radius: 2rem;
+}
+p{
+    border-top: #4A4238 dashed 2px;
+    padding-top: 1rem;
+}
